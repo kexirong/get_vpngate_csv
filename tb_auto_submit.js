@@ -6,7 +6,7 @@ var words = [
 
 function run() {
   setTimeout(function () {
-    let word = words[j % word.length]
+    let word = words[j % words.length]
     j++
     $("#ueditor_replace>p").text(word)
     $(".poster_submit").click()
